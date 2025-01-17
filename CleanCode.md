@@ -144,9 +144,8 @@ You can also use aliases for functions. I find this particularly useful in React
 import {genRandomData as createRandomUsers} from './utils'
 ```
 
-BTW: A function should only do one thing. I’ll stop here, or else this will turn into an article about SOLID.
-
 - **Tip #6: Avoid double negation. Nobody has time to guess what !!notLoading means. If you’re going to use operators like this, it’s better to avoid them altogether. You’d be better off creating separate booleans for each state.**
+
 Instead of:
 
 ```js
@@ -160,8 +159,30 @@ let isLoading = false;
 let isProcessing = true;
 ```
 
-> Good developers write clean code naturally—it’s not something you have to overthink. The goal is to make code readable, maintainable, and easy to work with.
+- **Tip #7: Do not over specify attributes (this one might be more specific to TypeScript). When declaring attributes in Types or Interfaces, you do not have to prefix everything - this is redundant as when you are accessing the attribute of that object you are going to do `Car.brand` anyways and this avoids `Car.carBrand`.**
 
+Instead of:
+
+```typescript
+type Car = {
+    carBrand: Tesla,
+    carType: EV,
+    carColor: White
+}
+```
+
+Do:
+
+```typescript
+type Car = {
+    brand: Tesla,
+    type: EV,
+    color: White
+}
+```
+
+> Good developers write clean code naturally—it’s not something you have to overthink. The goal is to make code readable, maintainable, and easy to work with.
+---
 Here are two questions I often see:
 
 1. **What’s the cost of writing clean code?**
