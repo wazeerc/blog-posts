@@ -1,11 +1,4 @@
----
-title: Why UX Matters
-description: Learn about the importance of User Experience design in modern software development
-tags: ["UI/UX"]
-pubDate: Feb 24 2025
-readTime: 6 min
-heroImage: /thumbnails/dev-designer.png
----
+# Why UX Matters
 
 UX or User Experience, is a vast and multifaceted subject. It is much more than just visual design and aesthetics, it encompasses usability, accessibility, and how users feel when interacting with a product. When building software, UX plays a critical role in determining how enjoyably users can engage with the software.
 
