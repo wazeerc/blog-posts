@@ -1,11 +1,4 @@
----
-title: I Built an App With a JS Library I Just Learned
-description: Learning Vue 3, building and deploying an app using it
-tags: ["Software Development", "Vue"]
-pubDate: Feb 16 2025
-readTime: 8 min
-heroImage: /thumbnails/learning-vue.png
----
+# I Built an App With a JS Library I Just Learned
 
 As I was exploring more facets of the frontend world, I realized it might be a good time to learn a new framework. While I’ve mostly been using React for my projects, as mentioned in my [previous blog post](/blog/react-good-and-bad), I wasn’t sick of it, I simply felt it was time to expand my horizons and dive into something new.
 
