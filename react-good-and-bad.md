@@ -1,11 +1,4 @@
----
-title: React Sucks. Here's Why You Should Learn It.
-description: The Good and Bad Side of React
-tags: ["Software Development", "React"]
-pubDate: Dec 12 2024
-readTime: 5 min
-heroImage: /thumbnails/react-crown.png
----
+# React Sucks. Here's Why You Should Learn It.
 
 React, loved by many and equally hated, is the UI library developed by Facebook (now Meta) in 2013. It’s arguably one of the most, if not the most popular JavaScript libraries out there. But let’s be honest: popularity isn’t the best metric to measure how good or bad something is. In this article, we’ll dive into the many quirks of React.js and explore whether it’s the right library for you.
 
